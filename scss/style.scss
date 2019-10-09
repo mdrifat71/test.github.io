@@ -1,0 +1,80 @@
+$nav-border:#008ed6;
+$nav-background:#292b2c;
+
+
+body{
+    background:#333;
+    color:#fff;
+}
+.cu-nav{
+    border-bottom:3px solid $nav-border;
+    background:$nav-background;
+    opacity:0.9;
+}
+
+#home{
+    background:url('../img/home.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed;
+
+    .dark-overlay{
+        background:rgba(0,0,0,0.7);
+        min-height: 700px;
+    }
+    .home-inner{
+        padding-top:150px;
+        padding-bottom:50px;
+    }
+    .fa{
+        background:#fff;
+        padding:4px;
+        border-radius:4px;
+        font-size:30px;
+        color:$nav-border;
+    }
+    .cu-form-card{
+        opacity:0.8;
+    }
+}
+
+#explore-body{
+    color:#333;
+
+    .fa{
+        font-size:30px;
+        color:#fff;
+        background:#333;
+        padding:4px;
+        border-radius:4px;
+    }
+}
+
+#create-body{
+    .fa{
+        font-size: 30px;
+        color: $nav-border;
+        padding:4px;
+        border-radius: 4px;
+        background:#fff;
+    }
+}
+
+#share-body{
+    .fa{
+        font-size:30px;
+        color:#fff;
+        background:#333;
+        border-radius:4px;
+        padding:4px;
+    }
+}
+
+
+
+@media(max-width:768px){
+    #home h1{
+        font-size: 36px;
+    }
+}
+
